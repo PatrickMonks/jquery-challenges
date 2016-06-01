@@ -18,14 +18,14 @@ $(document).ready(function(){
 });
 */
 /*------------------------------------- toggle ---------------*/
-/*
+
 $(document).ready(function(){
 
     $('div').click(function(){
         $('p').toggle('slow');
     });
 });
-*/
+
 
 /*------------------------------------- slideToggle ---------------*/
 /*
@@ -54,14 +54,14 @@ $(document).ready(function(){
 /*
 $(document).ready(function(){
     $('div').mouseenter(function(){
-    	$('div').fadeTo('fast',.5);
+        $('div').fadeTo('fast',.5);
     });
     $('div').mouseleave(function(){
-    	$('div').fadeTo('fast',1);
+        $('div').fadeTo('fast',1);
     });
 
     $('div').click(function(){
-    	$('p').toggle('slow');
+        $('p').toggle('slow');
     });
 });
 */
@@ -69,13 +69,13 @@ $(document).ready(function(){
 
 $(document).ready(function(){
     $('div').mouseenter(function(){
-    	$('div').removeClass('makeBlue').addClass('makeBorder');
+        $('div').removeClass('makeBlue').addClass('makeBorder');
     });
     $('div').mouseleave(function(){
-    	$('div').removeClass('makeBorder').addClass('makeBlue');
+        $('div').removeClass('makeBorder').addClass('makeBlue');
     });
 
     $('div').click(function(){
-    	$('p').slideToggle('slow');
+        $('p').slideToggle('slow');
     });
 });
